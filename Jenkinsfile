@@ -4,7 +4,7 @@ Pipeline {
 	stages {
 		stage('checkout') {
 			steps {
-				git "https://github.com/gessup/arduino-ci-demo.git'
+				git "git@github.com:gessup/arduino-ci-demo.git'
 			}
 }
 	Stage('Build') {
