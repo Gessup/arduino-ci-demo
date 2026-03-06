@@ -9,12 +9,10 @@ pipeline {
 	stages {
 		stage('checkout') {
 			steps {
-<<<<<<< HEAD
 				git "git@github.com:gessup/arduino-ci-demo.git'
-=======
+
 				// Pas aan: zet je juiste branchenaam indien anders
 				git branch: 'main', url: 'git@github.com:gessup/arduino-ci-demo.git'
->>>>>>> 7e64c72 (Fix: valid Declarative Pipeline + Arduino CLI setup)
 			}
 }
 	stage('Arduino CLI') {
