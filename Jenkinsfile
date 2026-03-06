@@ -9,7 +9,7 @@ pipeline {
 	stages {
 		stage('checkout') {
 			steps {
-				git "git@github.com:gessup/arduino-ci-demo.git'
+				git "git@github.com:gessup/arduino-ci-demo.git"
 
 				// Pas aan: zet je juiste branchenaam indien anders
 				git branch: 'main', url: 'git@github.com:gessup/arduino-ci-demo.git'
